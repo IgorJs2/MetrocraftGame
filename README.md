@@ -15,6 +15,8 @@ Multiplayer online post-apocalyptic game set in the Moscow metro, built on our o
 | Milestones | Closed beta in spring 2025, then preparation for open beta |
 | My code | ~2,100 commits, ~2M lines added; author of over half of all server commits |
 
+The surface at night, seen through binoculars. Screenshot from our engine:
+
 ![Looking through binoculars at night](images/night-binoculars.jpg)
 
 ## Devlogs
@@ -22,10 +24,6 @@ Videos recorded by team members in our engine:
 - [NavMesh and State Tree](https://www.youtube.com/watch?v=RJjwFcWkD24): rebuilt NPC navigation and AI. Mobs now use navigation meshes and State Tree logic, so NPCs can be as complex as a quest needs.
 - [Interactive doors](https://youtu.be/qnzXU3kZo9I)
 - [Gameplay footage, July 2026](https://www.youtube.com/watch?v=RTaPYEvFViU)
-
-How a player login and an in-game action flow between the game server, Kafka and the microservices:
-
-![Service flows](images/architecture-flows.png)
 
 ## Leading the project
 - Ran the backlog and releases in Jira, with separate version lines for the engine and the game, and assigned and accepted work across all disciplines.
@@ -76,4 +74,6 @@ A Grafana dashboard with player death heatmaps for the metro and the surface:
 | Observability and security | Sentry, Prometheus, Grafana, Loki, Wazuh, CrowdSec, Vault, Keycloak |
 
 ## More screenshots
-![](images/ruins-day.jpg)
+Ruined buildings on the surface during the day, also from our engine:
+
+![Ruins on the surface during the day](images/ruins-day.jpg)
