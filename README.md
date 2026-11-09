@@ -1,6 +1,6 @@
 # 🚇 Metrocraft 2036
 
-**Multiplayer online post-apocalyptic game set in the Moscow metro.** Java client and server on a custom engine, microservices, a website with accounts and payments, a launcher, an admin panel and player support.
+**Multiplayer online post-apocalyptic game set in the Moscow metro, built on our own game engine written in-house in Java.** Client and server, microservices, a website with accounts and payments, a launcher, an admin panel and player support.
 
 🌐 [metrocraft36.com](https://metrocraft36.com) · ▶️ [YouTube](https://www.youtube.com/@metrocraft36) · 💬 [Discord](https://discord.com/invite/xSgCwrWRVk)
 
