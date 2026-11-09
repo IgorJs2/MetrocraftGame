@@ -23,7 +23,9 @@ Videos recorded by team members in our engine:
 - [Interactive doors](https://youtu.be/qnzXU3kZo9I)
 - [Gameplay footage, July 2026](https://www.youtube.com/watch?v=RTaPYEvFViU)
 
-![screenshot](https://github.com/user-attachments/assets/1fffe260-2922-4315-8eee-2f5df9e3d327)
+How a player login and an in-game action flow between the game server, Kafka and the microservices:
+
+![Service flows](images/architecture-flows.png)
 
 ## Leading the project
 - Ran the backlog and releases in Jira, with separate version lines for the engine and the game, and assigned and accepted work across all disciplines.
@@ -42,11 +44,9 @@ The model blueprint editor, a node graph that drives first-person animation (her
 
 ![Blueprint editor](images/blueprint-editor.jpg)
 
-The world editor viewport with the decal brush and the asset browser:
+The backend layout: client, gateway, server managers, gRPC microservices behind Eureka, Kafka and the databases:
 
-![World editor](images/world-editor-decals.jpg)
-
-![screenshot](https://github.com/user-attachments/assets/d2b41876-860f-4452-8749-9ad89bca3296)
+![Architecture overview](images/architecture-overview.png)
 
 ## Backend and web
 - Java/Spring Boot microservices with gRPC, Kafka and Eureka: characters, inventory, quests, factions, realms, anti-cheat.
@@ -55,7 +55,9 @@ The world editor viewport with the decal brush and the asset browser:
 - Next.js website in two editions (RU and global), a Flarum forum with SSO and an admin panel (players, punishments, mailings, auction).
 - Tauri launcher with versioning, 2FA, telemetry and S3/CDN plus peer-to-peer delivery.
 
-![screenshot](https://github.com/user-attachments/assets/a56b709e-c2ca-409c-b10c-ac2c56daf587)
+A Grafana dashboard with player death heatmaps for the metro and the surface:
+
+![Death heatmap](images/death-heatmap.jpg)
 
 ## Infrastructure
 - Docker Compose for dev, staging and production; GitHub Actions pipelines with obfuscation, asset encryption and automated releases.
@@ -75,9 +77,3 @@ The world editor viewport with the decal brush and the asset browser:
 
 ## More screenshots
 ![](images/ruins-day.jpg)
-![](https://github.com/user-attachments/assets/30daf6ba-04c9-4f9e-bdc4-680b8c461c12)
-![](https://github.com/user-attachments/assets/962e49b3-eb22-42b5-a776-c6e38dffd1d0)
-![](https://github.com/user-attachments/assets/08021d96-987f-4c51-bdb7-8e69b7478087)
-![](https://github.com/user-attachments/assets/02b28f50-ecc2-4f01-b153-c3e8ceb00390)
-![](https://github.com/user-attachments/assets/2054d7de-e6ba-463d-ad07-0bba1a3e7af6)
-![](https://github.com/user-attachments/assets/dca67561-cee5-4a0d-84ba-e2bf8e994830)
