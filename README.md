@@ -2,7 +2,7 @@
 
 Multiplayer online post-apocalyptic game set in the Moscow metro, built on our own game engine written in-house in Java. Client and server, microservices, a website with accounts and payments, a launcher, an admin panel and player support.
 
-[metrocraft36.com](https://metrocraft36.com) · [YouTube](https://www.youtube.com/@metrocraft36) · [Discord](https://discord.com/invite/xSgCwrWRVk)
+[metrocraft36.com](https://metrocraft36.com) · [YouTube channel](https://www.youtube.com/@metrocraft36) · [Discord](https://discord.com/invite/xSgCwrWRVk) · [Website and player services write-up](https://github.com/IgorJs2/MetrocraftSite)
 
 > Source code is private (Interactive Game Studio). This repository describes the project and my role.
 
@@ -14,6 +14,14 @@ Multiplayer online post-apocalyptic game set in the Moscow metro, built on our o
 | Audience before open beta | 700 pre-registrations · 300 peak concurrent players in tests · 5,000 Discord members |
 | Milestones | Closed beta in spring 2025, then preparation for open beta |
 | My code | ~2,100 commits, ~2M lines added; author of over half of all server commits |
+
+![Looking through binoculars at night](images/night-binoculars.jpg)
+
+## Devlogs
+Videos recorded by team members in our engine:
+- [NavMesh and State Tree](https://www.youtube.com/watch?v=RJjwFcWkD24): rebuilt NPC navigation and AI. Mobs now use navigation meshes and State Tree logic, so NPCs can be as complex as a quest needs.
+- [Interactive doors](https://youtu.be/qnzXU3kZo9I)
+- [Gameplay footage, July 2026](https://www.youtube.com/watch?v=RTaPYEvFViU)
 
 ![screenshot](https://github.com/user-attachments/assets/1fffe260-2922-4315-8eee-2f5df9e3d327)
 
@@ -29,6 +37,14 @@ Multiplayer online post-apocalyptic game set in the Moscow metro, built on our o
 - Modular architecture with about 70 modules on each side, a packet registry and a shared client-server config format.
 - Gameplay systems: inventory and equipment, trading and barter, perks, clans and faction wars, outposts, weapons and shooting, anti-cheat logs, voice chat.
 - World editor for the team: roles and permissions, edit history, prefabs, interactive objects, an NPC and quest editor, visual graphs (State Tree, Event Graph), Google Sheets import and export, and an MCP server that lets Claude drive the editor.
+
+The model blueprint editor, a node graph that drives first-person animation (here, the watch on the player's wrist), next to the game map:
+
+![Blueprint editor](images/blueprint-editor.jpg)
+
+The world editor viewport with the decal brush and the asset browser:
+
+![World editor](images/world-editor-decals.jpg)
 
 ![screenshot](https://github.com/user-attachments/assets/d2b41876-860f-4452-8749-9ad89bca3296)
 
@@ -58,6 +74,7 @@ Multiplayer online post-apocalyptic game set in the Moscow metro, built on our o
 | Observability and security | Sentry, Prometheus, Grafana, Loki, Wazuh, CrowdSec, Vault, Keycloak |
 
 ## More screenshots
+![](images/ruins-day.jpg)
 ![](https://github.com/user-attachments/assets/30daf6ba-04c9-4f9e-bdc4-680b8c461c12)
 ![](https://github.com/user-attachments/assets/962e49b3-eb22-42b5-a776-c6e38dffd1d0)
 ![](https://github.com/user-attachments/assets/08021d96-987f-4c51-bdb7-8e69b7478087)
