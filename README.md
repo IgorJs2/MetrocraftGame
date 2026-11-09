@@ -1,15 +1,15 @@
-# 🚇 Metrocraft 2036
+# Metrocraft 2036
 
-**Multiplayer online post-apocalyptic game set in the Moscow metro, built on our own game engine written in-house in Java.** Client and server, microservices, a website with accounts and payments, a launcher, an admin panel and player support.
+Multiplayer online post-apocalyptic game set in the Moscow metro, built on our own game engine written in-house in Java. Client and server, microservices, a website with accounts and payments, a launcher, an admin panel and player support.
 
-🌐 [metrocraft36.com](https://metrocraft36.com) · ▶️ [YouTube](https://www.youtube.com/@metrocraft36) · 💬 [Discord](https://discord.com/invite/xSgCwrWRVk)
+[metrocraft36.com](https://metrocraft36.com) · [YouTube](https://www.youtube.com/@metrocraft36) · [Discord](https://discord.com/invite/xSgCwrWRVk)
 
 > Source code is private (Interactive Game Studio). This repository describes the project and my role.
 
 ## At a glance
 | | |
 |---|---|
-| My role | **Project Lead / CTO**, Apr 2024 – present |
+| My role | Project Lead / CTO, Apr 2024 – present |
 | Team | 20–40 people: developers, game designers, narrative designers, artists, QA |
 | Audience before open beta | 700 pre-registrations · 300 peak concurrent players in tests · 5,000 Discord members |
 | Milestones | Closed beta in spring 2025 · open beta in preparation |
@@ -24,11 +24,11 @@
 - Closed beta operations (whitelists, daily fixes from reports), open beta preparation, Bug Bounty and a media program.
 
 ## Engine and gameplay (Java)
-- Moved the project from its Minecraft/Forge legacy to **our own engine**: LWJGL3, PBR rendering with lighting and shadows, NanoVG and then Noesis UI, FMOD audio, Jolt physics, PopcornFX effects.
-- **Custom UDP networking** (RakNet, io_uring): chunk streaming, preloading, texture streaming, network metrics.
+- Moved the project from its Minecraft/Forge legacy to our own engine: LWJGL3, PBR rendering with lighting and shadows, NanoVG and then Noesis UI, FMOD audio, Jolt physics, PopcornFX effects.
+- Custom UDP networking (RakNet, io_uring): chunk streaming, preloading, texture streaming, network metrics.
 - Modular architecture with about 70 modules on each side, a packet registry and a shared client-server config format.
 - Gameplay systems: inventory and equipment, trading and barter, perks, clans and faction wars, outposts, weapons and shooting, anti-cheat logs, voice chat.
-- **World editor for the team:** roles and permissions, edit history, prefabs, interactive objects, an NPC and quest editor, visual graphs (State Tree, Event Graph), Google Sheets import and export, and an **MCP server that lets Claude drive the editor**.
+- World editor for the team: roles and permissions, edit history, prefabs, interactive objects, an NPC and quest editor, visual graphs (State Tree, Event Graph), Google Sheets import and export, and an MCP server that lets Claude drive the editor.
 
 ![screenshot](https://github.com/user-attachments/assets/d2b41876-860f-4452-8749-9ad89bca3296)
 
