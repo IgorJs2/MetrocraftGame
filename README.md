@@ -9,16 +9,16 @@ Multiplayer online post-apocalyptic game set in the Moscow metro, built on our o
 ## At a glance
 | | |
 |---|---|
-| My role | Project Lead / CTO, Apr 2024 – present |
+| My role | Project Lead / CTO, Apr 2024 – Sep 2026 |
 | Team | 20–40 people: developers, game designers, narrative designers, artists, QA |
 | Audience before open beta | 700 pre-registrations · 300 peak concurrent players in tests · 5,000 Discord members |
-| Milestones | Closed beta in spring 2025 · open beta in preparation |
+| Milestones | Closed beta in spring 2025, then preparation for open beta |
 | My code | ~2,100 commits, ~2M lines added; author of over half of all server commits |
 
 ![screenshot](https://github.com/user-attachments/assets/1fffe260-2922-4315-8eee-2f5df9e3d327)
 
 ## Leading the project
-- Run the backlog and releases in Jira, with separate version lines for the engine and the game. Assign and accept work across all disciplines.
+- Ran the backlog and releases in Jira, with separate version lines for the engine and the game, and assigned and accepted work across all disciplines.
 - Confluence documentation: design docs for game mechanics, quest-authoring guides for narrative designers, technical docs, patch notes.
 - Hiring through the careers page and the admin panel; sourcing and accepting 3D assets from contractors.
 - Closed beta operations (whitelists, daily fixes from reports), open beta preparation, Bug Bounty and a media program.
