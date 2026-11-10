@@ -42,10 +42,6 @@ The model blueprint editor, a node graph that drives first-person animation (her
 
 ![Blueprint editor](images/blueprint-editor.jpg)
 
-The backend layout: client, gateway, server managers, gRPC microservices behind Eureka, Kafka and the databases:
-
-![Architecture overview](images/architecture-overview.png)
-
 ## Backend and web
 - Java/Spring Boot microservices with gRPC, Kafka and Eureka: characters, inventory, quests, factions, realms, anti-cheat.
 - Website backend moved from NestJS to seven Java services behind a gateway, with Keycloak SSO (social login, Twitch, Telegram linking).
